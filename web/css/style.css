@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav{
+    padding: 15px 0;
+}
+
+#home{
+    height: 90vh;
+}
+
+.caixa {
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.caixa-faq-texto{
+    background: #e9edf3;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+}
+
+.caixa-faq{
+    background: #e9edf3;
+    padding: 15px 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+footer{
+    background: #242f51;
+    text-align: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+/**/
+.preco-item{
+    border: 1px solid #ebebeb;
+    text-align: center;
+}
+
+.header-buy{
+    padding: 20px;
+    background: #f4f7f9;
+}
+
+.price-buy{
+    color: #242f51;
+    font-size: 3.2em;
+    display: inline-block;
+}
+
+.month-buy{
+    display: inline-block;
+}
+
+.title-buy{
+    color: #242f51;
+    font-weight: 650;
+}
+
+.item-buy{
+    padding-bottom: 10px;
+    color: #77797b;
+}
+
+.preco-item ul{
+    list-style: none;
+    padding-top: 20px;
+}

@@ -1,0 +1,113 @@
+/*EXTRA SMALL DEVICES*/
+@media (max-width: 575.98px){
+    header{
+        padding-top: 10px;
+    }
+
+    #home{
+        text-align: center;
+    }
+
+    .companie-caixa{
+        padding-top: 30px;
+    }
+
+   #features{
+       text-align: center;
+   }
+   
+   #pricing{
+       text-align: center;
+   }
+
+   #designed{
+       text-align: center;
+   }
+
+   #ultimate-features{
+       text-align: center;
+   }
+
+   .preco-item-margin{
+       margin-bottom: 30px;
+   }
+
+   .caixa-faq, .caixa-faq-texto{
+       width: 90%;
+       margin: 0 auto 15px auto;
+   }
+
+   #download{
+       text-align: center;
+   }
+}
+
+/*SMALL DEVICES*/
+@media (min-width: 576px) and  (max-width: 767.98px) { 
+    header{
+        padding-top: 10px;
+    }
+
+    #home{
+        text-align: center;
+    }
+
+    #features{
+        text-align: center;
+    }
+    
+    #pricing{
+        text-align: center;
+    }
+
+    #designed{
+        text-align: center;
+    }
+
+    #ultimate-features{
+        text-align: center;
+    }
+
+    .preco-item-margin{
+        margin-bottom: 30px;
+    }
+
+    #download{
+        text-align: center;
+    }
+}
+
+/*MEDIUM DEVICES*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #home{
+        text-align: center;
+    }
+
+    #features{
+        text-align: center;
+    }
+
+    .companie-caixa{
+        margin: 20px 30px;
+    }
+    
+    #pricing{
+        text-align: center;
+    }
+
+    #ultimate-features{
+        text-align: center;
+    }
+}
+
+/*LARGE DEVICES*/
+@media (min-width: 992px) and (max-width: 1999.98px){ 
+    #home{
+        text-align: center;
+    }
+}
+
+/*EXTRA LARGE DEVICES*/
+@media (min-width: 1200px) and (max-width: 1400px){ 
+    
+}
