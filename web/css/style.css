@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 .navbar-nav{
     padding: 15px 0;
 }
@@ -36,7 +40,7 @@ footer{
     padding: 80px 0;
 }
 
-/**/
+/*seção de compra*/
 .preco-item{
     border: 1px solid #ebebeb;
     text-align: center;
@@ -70,4 +74,43 @@ footer{
 .preco-item ul{
     list-style: none;
     padding-top: 20px;
+}
+
+/*MODAL*/
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0,0,0,.5); 
+    position: fixed; 
+    display: none; 
+    z-index: 200; 
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-caixa {
+    background-color: #fefefe;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #242f51;
+	box-shadow: 0 0 0 10px white;
+    position: relative;
+}
+
+.fechar-modal {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #242f51;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
 }

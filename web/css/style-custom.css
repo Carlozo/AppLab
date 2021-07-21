@@ -53,6 +53,23 @@ p{
     font-weight: 700;
 }
 
+.btn-custom:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.btn-faq{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn-faq:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
 .btn-roxo{
     color: white;
     background: #2500f9;

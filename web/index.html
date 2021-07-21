@@ -18,7 +18,7 @@
     <title>AppLab</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
                 <a href="#">
@@ -31,12 +31,12 @@
 
                 <div id="nav-principal" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto mr-5">
-                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#features" class="nav-link">Key Features</a></li>
-                        <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                        <li class="nav-item"><a href="#header" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#features" class="nav-link">Características</a></li>
+                        <li class="nav-item"><a href="#buy" class="nav-link">Preços</a></li>
                         <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
                     </ul>
-                    <button class="btn-custom btn-roxo d-none d-md-block">Try for free</button>
+                    <button class="btn-custom btn-roxo d-none d-md-block" onclick="inscreverse();">Teste gratuitamente</button>
                 </div>
             </div>
         </nav>
@@ -47,10 +47,10 @@
             <div class="row ml-4">
                 <div class="col-lg-6 pt-5">
                     <img src="./img/1header/verify.png" alt="" class="img-fluid">
-                    <h1>Best app for your modern lifestyle</h1>
-                    <p>Increase productivity with a simple to-do app, app for managing your personal budgets.</p>
-                    <button class="btn-custom btn-roxo">Try for free</button>
-                    <button class="btn-custom btn-branco">Watch demo video</button>
+                    <h1>Melhor aplicativo para seu estilo de vida moderno</h1>
+                    <p>Aumente a produtividade com um aplicativo simples de tarefas, para gerenciar seus orçamentos pessoais.</p>
+                    <button class="btn-custom btn-roxo" onclick="inscreverse();">Teste gratuitamente</button>
+                    <button id="chamar-modal" class="btn-custom btn-branco">Assistir video demo</button>
                 </div>
                 <div class="col-md-6">
                     <img src="img/1header/phone2.png" alt="" class="img-fluid d-none d-lg-block">
@@ -64,7 +64,7 @@
     <div class="caixa"> 
         <section id="companies">
             <div class="container text-center">
-                <p>Trusted by companies like</p>
+                <p>Aprovado por empresas como:</p>
                 <div class="row text-center justify-content-center">
                     <div class="col-md-2 companie-caixa">
                         <img src="img/2companies/company1.png" alt="">
@@ -95,18 +95,18 @@
                     <img src="img/3features/phone.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="pt-5">Awesome apps <br> features</h2>
-                    <p>Increase productivity with a simple to-do app. app for <br> managing your personal budgets.</p>
+                    <h2 class="pt-5">Recursos de aplicativos <br> incríveis </h2>
+                    <p>Aumente a produtividade com um aplicativo simples de tarefas. app para <br> gerenciar seus orçamentos pessoais. </p>
                     <div class="caixa-features pt-5">
                         <div class="row">
                             <div class="col-md-3">
                                 <img src="img/3features/fast.png" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-9">
-                                <h4 class="h4-red">Fast Performance</h4>
-                                <p>Get your blood tests delivered at <br>
-                                    home collect a sample from the <br>
-                                    news your blood tests.</p>
+                                <h4 class="h4-red">Desempenho Rápido</h4>
+                                <p>  Obtenha seus exames de sangue entregues em <br>
+                                casa, colete uma amostra das <br>
+                                notícias de seus exames de sangue. </p>
                             </div>
                         </div>
                         <div class="row">
@@ -114,10 +114,10 @@
                                 <img src="img/3features/prot.png" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-9">
-                                <h4 class="h4-blue">Prototyping</h4>
-                                <p>Get your blood tests delivered at <br>
-                                    home collect a sample from the <br>
-                                    news your blood tests.</p>
+                                <h4 class="h4-blue">Prototipagem</h4>
+                                <p>  Obtenha seus exames de sangue entregues em <br>
+                                casa, colete uma amostra das <br>
+                                notícias de seus exames de sangue. </p>
                             </div>
                         </div>
                         <div class="row">
@@ -125,10 +125,10 @@
                                 <img src="img/3features/vect.png" alt="" class="img-fluid"> 
                             </div>
                             <div class="col-md-9">
-                                <h4 class="h4-green">Vector Editing</h4>
-                                <p>Get your blood tests delivered at <br>
-                                    home collect a sample from the <br>
-                                    news your blood tests.</p>
+                                <h4 class="h4-green">Edição de vetores</h4>
+                                <p>  Obtenha seus exames de sangue entregues em <br>
+                                casa, colete uma amostra das <br>
+                                notícias de seus exames de sangue. </p>
                             </div>
                         </div>
                     </div>
@@ -146,15 +146,15 @@
                     <div class="col-md-12 mb-5">
                         <div class="row">
                             <div class="col-md-4">
-                                <h2>Smart jackpots that <br> you may love this <br> anytime & anywhere</h2>
+                                <h2>Jackpots inteligentes que você pode adorar <br> a qualquer hora e em qualquer lugar </h2>
                             </div>
                             <div class="col-md-1">
                                 <img src="img/4smart jackpot/separa.png" alt="" class="d-none d-lg-block">
                             </div>
                             <div class="col-md-7 align-self-center">
-                                <p>he rise of mobile devices transforms the way we <br>
-                                    consume information entirely and the world's most <br>
-                                    elevant channels such as Facebook.</p>
+                                <p>A ascensão dos dispositivos móveis transforma totalmente a <br>
+                                maneira como consumimos informações e os canais mais <br>  
+                                importantes do mundo, como o Facebook.</p>
                             </div>
                         </div>
                     </div>
@@ -162,24 +162,24 @@
                 <div class="row">
                     <div class="col-md-4">
                         <img src="img/4smart jackpot/item1.png" alt="" class="img-fluid mb-4">
-                        <h4 class="h4-red">Automatic Payouts</h4>
-                        <p>Get your blood tests delivered at <br>
-                            home collect a sample from the <br>
-                             news your blood tests.</p>
+                        <h4 class="h4-red">Pagamentos Automáticos</h4>
+                        <p>Obtenha seus exames de sangue entregues em <br>
+                        casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                     <div class="col-md-4">
                         <img src="img/4smart jackpot/item2.png" alt="" class="img-fluid mb-4">
-                        <h4 class="h4-blue">Network Effect</h4>
-                        <p>Get your blood tests delivered at <br> 
-                            home collect a sample from the <br>
-                             news your blood tests.</p>
+                        <h4 class="h4-blue">Efeito de rede</h4>
+                        <p>Obtenha seus exames de sangue entregues em <br>
+                        casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                     <div class="col-md-4">
                         <img src="img/4smart jackpot/item3.png" alt="" class="img-fluid mb-4"> 
-                        <h4 class="h4-green">Bigger Rewards Method</h4>
-                        <p>Get your blood tests delivered at <br> 
-                            home collect a sample from the <br>
-                             news your blood tests.</p>
+                        <h4 class="h4-green">Método de recompensas maiores</h4>
+                        <p>Obtenha seus exames de sangue entregues em <br>
+                        casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                 </div>
             </div>
@@ -195,11 +195,11 @@
                         <img src="img/5designed e built/model.png" alt="" class="img-fluid d-none d-md-block">
                     </div>
                     <div class="col-md-6">
-                        <h2 class="mb-4">Designed & built by <br> the latest code <br> integration</h2>
-                        <p class="mb-4">The rise of mobile devices transforms the way we <br>
-                            consume information entirely and the world's most <br>
-                            elevant channels such as Facebook.</p>
-                        <button class="btn-custom btn-roxo">Learn more</button>
+                        <h2 class="mb-4">Projetado e construído pela <br> última integração de código </h2>
+                        <p class="mb-4">A ascensão dos dispositivos móveis transforma totalmente a <br>
+                        maneira como consumimos informações e os canais mais <br>  
+                        importantes do mundo, como o Facebook.</p>
+                        <button class="btn-custom btn-roxo" onclick="window.open ('https://canaltech.com.br/smartphone/Brasil-e-o-terceiro-pais-que-mais-cresce-no-mercado-movel/');">Ler mais</button>
                     </div>
                 </div>
             </div>
@@ -210,53 +210,53 @@
     <div class="caixa"> 
         <section id="choose">
             <div class="container text-center">
-                <h2 class="mb-3">Why you should choose <br> our app</h2>
-                <p class="pb-5">The rise of mobile devices transforms the way we consume information entirely <br> and the world's most elevant channels such as Facebook.</p>
+                <h2 class="mb-3">Por que você deve escolher <br> nosso aplicativo </h2>
+                <p class="pb-5">A ascensão dos dispositivos móveis transforma totalmente a maneira como consumimos informações e os canais <br> mais importantes do mundo, como o Facebook. </p>
     
                 <div class="row text-center mb-4">
                     <div class="col-md-4">
                         <img src="img/6choose our app/choose1.png" alt="" class="img-fluid mb-4">
-                        <h4>App Development</h4>
-                        <p>Get your blood tests delivered at <br>
-                        home collect a sample from the <br>
-                        news your blood tests.</p>
+                        <h4>Desenvolvimento de aplicativos</h4>
+                        <p>Obtenha seus exames de sangue entregues <br> 
+                        em casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                     <div class="col-md-4">
                         <img src="img/6choose our app/choose2.png" alt="" class="img-fluid mb-4">
-                        <h4>10 Times Award</h4>
-                        <p>Get your blood tests delivered at <br>
-                        home collect a sample from the <br>
-                        news your blood tests.</p>
+                        <h4>Premiado 10 vezes </h4>
+                        <p>Obtenha seus exames de sangue entregues <br> 
+                        em casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                     <div class="col-md-4">
                         <img src="img/6choose our app/choose3.png" alt="" class="img-fluid mb-4">
-                        <h4>Cloud Storage</h4>
-                        <p>Get your blood tests delivered at <br>
-                        home collect a sample from the <br>
-                        news your blood tests.</p>
+                        <h4>Armazenamento em nuvem</h4>
+                        <p>Obtenha seus exames de sangue entregues <br> 
+                        em casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
                         <img src="img/6choose our app/choose4.png" alt="" class="img-fluid mb-4">
-                        <h4>Customization</h4>
-                        <p>Get your blood tests delivered at <br>
-                        home collect a sample from the <br>
-                        news your blood tests.</p>
+                        <h4>Customização</h4>
+                        <p>Obtenha seus exames de sangue entregues <br> 
+                        em casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                     <div class="col-md-4">
                         <img src="img/6choose our app/choose5.png" alt="" class="img-fluid mb-4">
-                        <h4>UX Planning</h4>
-                        <p>Get your blood tests delivered at <br>
-                        home collect a sample from the <br>
-                        news your blood tests.</p>
+                        <h4>Planejamento UX</h4>
+                        <p>Obtenha seus exames de sangue entregues <br> 
+                        em casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                     <div class="col-md-4">
                         <img src="img/6choose our app/choose6.png" alt="" class="img-fluid mb-4">
-                        <h4>Customer Support</h4>
-                        <p>Get your blood tests delivered at <br>
-                        home collect a sample from the <br>
-                        news your blood tests.</p>
+                        <h4>Suporte ao cliente</h4>
+                        <p>Obtenha seus exames de sangue entregues <br> 
+                        em casa, colete uma amostra das <br>
+                        notícias de seus exames de sangue.</p>
                     </div>
                 </div>
             </div>
@@ -267,40 +267,36 @@
     <div class="caixa"> 
         <section id="ultimate-features">
             <div class="container">
-                <h2>Ultimate features <br> that we built</h2>
-                <p class="pb-4">The rise of mobile devices transforms the way we <br> consume information entirely.</p>
+                <h2>Recursos finais <br> que criamos</h2>
+                <p class="pb-4">A ascensão dos dispositivos móveis transforma totalmente <br> a maneira como consumimos informações. </p>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row mb-4">
                             <div class="col-md-6">
                                 <img src="img/6choose our app/choose1.png" alt="" class="img-fluid mb-4">
-                                <h4>App Development</h4>
-                                <p>Get your blood tests delivered at <br>
-                                home collect a sample from the <br>
-                                news your blood tests.</p>
+                                <h4>Desenvolvimento de aplicativos</h4>
+                                <p>Obtenha seus exames de sangue entregues em
+                                casa, colete uma amostra das notícias de seus exames de sangue.</p>
                             </div>
                             <div class="col-md-6">
                                 <img src="img/6choose our app/choose5.png" alt="" class="img-fluid mb-4">
-                                <h4>UX Planing</h4>
-                                <p>Get your blood tests delivered at <br>
-                                home collect a sample from the <br>
-                                news your blood tests.</p>
+                                <h4>Planejamento UX</h4>
+                                <p>Obtenha seus exames de sangue entregues em
+                                casa, colete uma amostra das notícias de seus exames de sangue.</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6"> 
                                 <img src="img/6choose our app/choose3.png" alt="" class="img-fluid mb-4"> 
-                                <h4>Cloud Storage</h4>
-                                <p>Get your blood tests delivered at <br>
-                                home collect a sample from the <br>
-                                news your blood tests.</p>
+                                <h4>Armazenamento em nuvem</h4>
+                                <p>Obtenha seus exames de sangue entregues em
+                                casa, colete uma amostra das notícias de seus exames de sangue.</p>
                             </div>
                             <div class="col-md-6">
                                 <img src="img/6choose our app/choose6.png" alt="" class="img-fluid mb-4">
-                                <h4>Customer support</h4>
-                                <p>Get your blood tests delivered at <br>
-                                home collect a sample from the <br>
-                                news your blood tests.</p>
+                                <h4>Suporte ao cliente</h4>
+                                <p>Obtenha seus exames de sangue entregues em
+                                casa, colete uma amostra das notícias de seus exames de sangue.</p>
                             </div>
                         </div>
                     </div>
@@ -317,44 +313,44 @@
         <section id="buy">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="mb-4">Get awesome features, without <br> extra charges</h2>
-                    <p class="pb-5">The rise of mobile devices transforms the way we consume information entirely <br> and the world's most elevant channels such as Facebook.</p>
+                    <h2 class="mb-4">Obtenha recursos incríveis <br> sem custos extras </h2>
+                    <p class="pb-5">A ascensão dos dispositivos móveis transforma totalmente a maneira como consumimos informações e os canais <br> mais importantes do mundo, como o Facebook.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="preco-item preco-item-margin">
                             <div class="header-buy">
-                                <h5 class="price-buy"><sup>$</sup>0</h5>
-                                <p class="month-buy">/month</p>
-                                <h5 class="title-buy">Business Class</h5>
-                                <p>For email teams our office</p>
+                                <h5 class="price-buy"><sup>R$</sup>0</h5>
+                                <p class="month-buy">/mês</p>
+                                <h5 class="title-buy">Classe executiva</h5>
+                                <p>Para equipes de e-mail e escritório</p>
                             </div>
                             <ul>
-                                <li class="item-buy">Drag & drop Builder</li>
-                                <li class="item-buy">1000's of Templates</li>
-                                <li class="item-buy">Blog Support Tools</li>
-                                <li class="item-buy">eCommerce Store</li>
+                                <li class = "item-buy"> Construtor de arrastar e soltar </li>
+                                <li class = "item-buy"> Milhares de modelos </li>
+                                <li class = "item-buy"> Ferramentas de suporte do blog </li>
+                                <li class = "item-buy"> Loja de comércio eletrônico </li> 
                             </ul>
-                            <button class="btn-custom btn-roxo">Start free trial</button> 
+                            <button class="btn-custom btn-roxo" onclick="preco0();">Comece o teste gratuito</button> 
                             <p style="color: white;">.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="preco-item">
                             <div class="header-buy">
-                                <h5 class="price-buy"><sup>$</sup>99</h5>
-                                <p class="month-buy">/month</p>
-                                <h5 class="title-buy">Pro Master</h5>
-                                <p>For best opportunities</p>
+                                <h5 class="price-buy"><sup>R$</sup>99</h5>
+                                <p class="month-buy">/mês</p>
+                                <h5 class="title-buy">Mestre Profissional </h5>
+                                <p>Para melhores oportunidades </p>
                             </div>
                             <ul>
-                                <li class="item-buy">Drag & drop Builder</li>
-                                <li class="item-buy">1000's of Templates</li>
-                                <li class="item-buy">Blog Support Tools</li>
-                                <li class="item-buy">eCommerce Store</li>
+                                <li class = "item-buy"> Construtor de arrastar e soltar </li>
+                                <li class = "item-buy"> Milhares de modelos </li>
+                                <li class = "item-buy"> Ferramentas de suporte do blog </li>
+                                <li class = "item-buy"> Loja de comércio eletrônico </li> 
                             </ul>
-                            <button class="btn-custom btn-roxo">Subscribe now</button> 
-                            <p>Or Start 14 days trail</p>
+                            <button class="btn-custom btn-roxo" onclick="preco99();">Inscreva-se agora</button> 
+                            <p>Ou comece a avaliação de 14 dias</p>
                         </div>
                     </div>
                 </div>
@@ -366,28 +362,30 @@
     <div class="caixa"> 
         <section id="faq">
             <div class="container">
-                <h2 class="text-center">Frequently asked questions</h2>
-                <p class="text-center pb-5">The rise of mobile devices transforms the way we consume information entirely <br> and the world's most elevant channels such as Facebook.</p>
+                <h2 class="text-center">Perguntas frequentes</h2>
+                <p class="text-center pb-5">A ascensão dos dispositivos móveis transforma totalmente a <br>
+                    maneira como consumimos informações e os canais mais <br>  
+                    importantes do mundo, como o Facebook.</p>
                 <div class="row">
                     <div class="caixa-faq-texto">
-                        <h4>How to contact with riders emergency?</h4>
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                        <h4>Como entrar em contato com a emergência de pilotos?</h4>
+                        <p>Aproveite as estruturas ágeis para fornecer uma sinopse robusta para visões gerais de alto nível. Abordagens iterativas para a estratégia corporativa estimulam o pensamento colaborativo para promover a proposição de valor geral. Faça crescer organicamente a visão holística do mundo da inovação disruptiva por meio da diversidade e do empoderamento do local de trabalho.</p>
                     </div>
                     <div class="caixa-faq">
-                        <h4 class="d-inline-block">App installation failed, how to update system information?</h4>
-                        <h5 class="float-right d-inline">+</h5>
+                        <h4 class="d-inline-block">A instalação do aplicativo falhou. Como atualizar as informações do sistema?</h4>
+                        <button class="btn-faq float-right d-inline">+</button>
                     </div>
                     <div class="caixa-faq">
-                        <h4 class="d-inline-block">Website reponse taking time, how to improve?</h4>
-                        <h5 class="float-right d-inline">+</h5>
+                        <h4 class="d-inline-block">A resposta do site está demorando, como melhorar?</h4>
+                        <button class="btn-faq float-right d-inline">+</button>
                     </div>
                     <div class="caixa-faq">
-                        <h4 class="d-inline-block">New update fixed all bug and issues</h4>
-                        <h5 class="float-right d-inline">+</h5>
+                        <h4 class="d-inline-block">Nova atualização corrigiu todos os bugs e problemas?</h4>
+                        <button class="btn-faq float-right d-inline">+</button>
                     </div>
                     <div class="caixa-faq">
-                        <h4 class="d-inline-block">How to contact with riders emergency?</h4>
-                        <h5 class="float-right d-inline">+</h5>
+                        <h4 class="d-inline-block">Como entrar em contato com a emergência de pilotos?</h4>
+                        <button class="btn-faq float-right d-inline">+</button>
                     </div>
                 </div>
             </div>
@@ -400,10 +398,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>Download our App now !</h2>
-                        <p>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-                        <a href=""><img src="img/11download/playstore.png" alt="" class="img-fluid" width="210"></a>
-                        <a href=""><img src="img/11download/appstore.png" alt="" class="img-fluid"></a>
+                        <h2>Baixe nosso App agora!</h2>
+                        <p>A ascensão dos dispositivos móveis transforma totalmente a maneira como consumimos informações e os canais mais importantes do mundo, como o Facebook.</p>
+                        <a target="_blank" href="https://play.google.com/store/?utm_source=latam_Med&utm_medium=hasem&utm_content=Jul1520&utm_campaign=Evergreen&pcampaignid=MKT-FDR-latam-br-1002290-Med-hasem-py-Evergreen-Jul1520-Text_Search_BKWS-28432345789&gclid=CjwKCAjwi9-HBhACEiwAPzUhHNmcqHc-F4uXwaJTxsEIcywZJviGhVZeBiCYFWGUkNsC5k7QSalgFRoCwlsQAvD_BwE&gclsrc=aw.ds"><img src="img/11download/playstore.png" alt="" class="img-fluid" width="210" style="padding-left: 0;"></a>
+                        <a target="_blank" href="https://www.apple.com/br/shop"><img src="img/11download/appstore.png" alt="" class="img-fluid"></a>
                     </div>
                     <div class="col-md-6">
                         <img src="img/11download/vetor.png" alt="" class="img-fluid">
@@ -413,6 +411,7 @@
         </section>
     </div>
 
+    <!--footer-->
     <footer>
         <div class="container">
             <div class="row">
@@ -420,9 +419,9 @@
                     <img src="img/12footer/AppLab.png" alt="" class="img-fluid">
         
                     <ul class="navbar-dark lista-footer">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#features">Key features</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#pricing">Preços</a></li>
                         <li><a href="#faq">FAQ</a></li>
                     </ul>
 
@@ -454,6 +453,23 @@
         </div>
     </footer>
 
+    <!--modal-video-->
+    <div class="row text-center">
+        <div class="col-md-12">
+            <div id="modal-video" class="modal-container">
+                <div class="modal-caixa">
+                    <span class="fechar-modal">&times;</span>
+                    <h3>Video Demo</h3>
+                    <video id="demovideo" class="img-fluid" controls>
+                        <source src="img/videodemo/videodemo.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
