@@ -1,11 +1,19 @@
 /*EXTRA SMALL DEVICES*/
 @media (max-width: 575.98px){
+    .caixa{
+        padding: 45px 0px;
+    }
+    
     header{
         padding-top: 10px;
     }
 
     #home{
         text-align: center;
+    }
+
+    h1{
+        font-size: 2.7em;
     }
 
     .companie-caixa{
@@ -18,6 +26,10 @@
    
    #pricing{
        text-align: center;
+   }
+
+   #pricing h2{
+        margin-bottom: 20px;
    }
 
    #designed{
@@ -98,12 +110,24 @@
     #ultimate-features{
         text-align: center;
     }
+
+    .container-lojas{
+        text-align: center;
+    }
 }
 
 /*LARGE DEVICES*/
 @media (min-width: 992px) and (max-width: 1999.98px){ 
+    .conteudo-home{
+        padding-left: 1.5rem;
+    }
+
     #home{
         text-align: center;
+    }
+
+    .container-lojas .ml{
+        margin-left: 0;
     }
 }
 
