@@ -1,5 +1,11 @@
-/*EXTRA SMALL DEVICES*/
-@media (max-width: 575.98px){
+/*------------------------------- WIDTH ----------------------------------*/
+/*ULTRA EXTRA SMALL DEVICE*/
+@media (max-width: 369.98px){
+    h1{
+        font-size: 2.2em;
+        margin-bottom: 0.50em;
+    }
+
     .caixa{
         padding: 45px 0px;
     }
@@ -12,8 +18,79 @@
         text-align: center;
     }
 
+    #home button{
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+
+    #home p{
+        margin-bottom: 1.8rem;
+    }
+
+    .companie-caixa{
+        padding-top: 30px;
+    }
+
+   #features{
+       text-align: center;
+   }
+   
+   #pricing{
+       text-align: center;
+   }
+
+   #pricing h2{
+        margin-bottom: 20px;
+   }
+
+   #designed{
+       text-align: center;
+   }
+
+   #ultimate-features{
+       text-align: center;
+   }
+
+   .preco-item-margin{
+       margin-bottom: 30px;
+   }
+
+   .caixa-faq, .caixa-faq-texto{
+       width: 90%;
+       margin: 0 auto 15px auto;
+   }
+
+   #download{
+       text-align: center;
+   }
+}
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 370px) and (max-width: 575.98px){
+    .caixa{
+        padding: 45px 0px;
+    }
+    
+    header{
+        padding-top: 10px;
+    }
+
+    #home{
+        text-align: center;
+    }
+
+    #home button{
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+
     h1{
-        font-size: 2.7em;
+        font-size: 2.6em;
+        margin-bottom: 0.50em;
+    }
+
+    #home p{
+        margin-bottom: 1.8rem;
     }
 
     .companie-caixa{
@@ -134,4 +211,37 @@
 /*EXTRA LARGE DEVICES*/
 @media (min-width: 1200px) and (max-width: 1400px){ 
     
+}
+
+
+/*------------------------------- HEIGHT ----------------------------------*/
+/*EXTRA SMALL DEVICES*/
+@media (max-height: 575.98px){
+    
+}
+
+/*SMALL DEVICES*/
+@media (min-height: 576px) and  (max-height: 767.98px) { 
+    
+}
+
+/*MEDIUM DEVICES*/
+@media (min-height: 768px) and (max-height: 991.98px) { 
+    #home{
+        padding-top: 60px;
+    }
+}
+
+/*LARGE DEVICES*/
+@media (min-height: 992px) and (max-height: 1999.98px){ 
+    #home{
+        height: 65vh;
+    }
+}
+
+/*EXTRA LARGE DEVICES*/
+@media (min-height: 1200px) and (max-height: 1400px){ 
+    #home{
+        height: 45vh;
+    }
 }

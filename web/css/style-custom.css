@@ -45,6 +45,11 @@ p{
 }
 
 /*Botões*/
+.navbar-toggler:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
 .btn-custom{
     padding: 15px 25px;
     border: none;
